@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Rule of Law",
+    "description": "Replaces DSH's ethics/morals phrasing with the framework of the Law of the People's Republic of China — statutory authority, legal reservation, due process, authority hierarchy — and adds legality notices with an audit trail at tool-call time."
+  }
+}

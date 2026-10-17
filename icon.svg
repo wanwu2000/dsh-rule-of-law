@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>法律至上</title>
+  <!-- 天平：象征公平与依法裁判 -->
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 立柱与横梁 -->
+    <line x1="32" y1="10" x2="32" y2="52" />
+    <line x1="32" y1="16" x2="32" y2="16" />
+    <line x1="14" y1="20" x2="50" y2="20" />
+    <!-- 底座 -->
+    <line x1="24" y1="52" x2="40" y2="52" />
+    <line x1="20" y1="56" x2="44" y2="56" />
+    <!-- 左盘 -->
+    <line x1="14" y1="20" x2="10" y2="30" />
+    <line x1="14" y1="20" x2="18" y2="30" />
+    <path d="M6 30 a8 6 0 0 0 16 0" />
+    <!-- 右盘 -->
+    <line x1="50" y1="20" x2="46" y2="30" />
+    <line x1="50" y1="20" x2="54" y2="30" />
+    <path d="M42 30 a8 6 0 0 0 16 0" />
+  </g>
+</svg>
