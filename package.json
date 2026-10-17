@@ -4,6 +4,17 @@
   "description": "法律至上：把 DSH 的道德/伦理表述全部替换为《中华人民共和国法律》框架——法定权限、法律保留、程序合法、效力层级，并在工具调用层做合法性提示与留痕。",
   "license": "MIT",
   "icon": "./icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaowen2013/dsh-rule-of-law.git"
+  },
+  "homepage": "https://github.com/zhaowen2013/dsh-rule-of-law#readme",
+  "bugs": {
+    "url": "https://github.com/zhaowen2013/dsh-rule-of-law/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",

@@ -1,5 +1,9 @@
 # 本包作为组合包被 profile 选中时，由 launcher 自动应用这一层 patch。
 # 作用：把宿主半边的插件行插进加载器（客户端半边靠 package.json 的 dsh.client 声明自动进启动图）。
+#
+# `config: {}` 不能省：Loader 行的激活要求携带 config（缺 config 的行会被视为
+# 未激活，宿主半边的 apply() 根本不会被调用——表现为设置页正常但 /law 未注册）。
 - insert:
     - id: rule-of-law
       name: dsh-rule-of-law
+      config: {}
